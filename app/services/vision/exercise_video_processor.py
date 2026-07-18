@@ -13,7 +13,7 @@ from detectors.biceps_curl import BicepsCurlDetector
 from detectors.shoulder_press import ShoulderPressDetector
 from detectors.lunges import LungesDetector
 from services.config.workout_config import POSE_CONNECTIONS
-
+from services.vision.download_model import ensure_model
 
 class VideoProcessorClass(VideoProcessorBase):
     def __init__(self):
